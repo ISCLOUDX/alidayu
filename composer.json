@@ -1,0 +1,21 @@
+{
+    "name": "iscms/alidayu",
+    "require": {
+        "php": ">=7",
+        "laravel/framework": "~5.0"
+    },
+    "license": "GPL",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "saberlove",
+            "email": "saberlove@me.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "iscms\\Alidayu\\": "src/",
+            "Aliyun\\": "src/AliyunSDK/"
+        }
+    }
+}
